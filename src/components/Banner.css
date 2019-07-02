@@ -1,0 +1,23 @@
+.banner-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+.banner-icon-container {
+  background-color: #262f38;
+}
+
+.banner-tagline {
+  text-align: center;
+  font-size: 2.5rem;
+  max-width: 500px;
+}
+
+.banner-special {
+  color: #e31b6d;
+}
+
+.banner-next-section-icon {
+  width: 80px;
+}

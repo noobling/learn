@@ -1,0 +1,22 @@
+.contact-input {
+  border: 5px solid #000;
+  font-size: 2rem;
+  padding: 10px 20px;
+}
+
+.contact-textarea {
+  border: 5px solid #000;
+  font-size: 2rem;
+  padding: 10px 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form > * {
+  margin-top: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
