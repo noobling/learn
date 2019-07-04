@@ -1,9 +1,10 @@
 import React from 'react'
+import studiesIcon from './studies.svg'
 
 export default function() {
   return (
     <section id="studies" className="section">
-      <img src="studies.svg" className="icon" alt="studies-icon" />
+      <img src={studiesIcon} className="icon" alt="studies-icon" />
       <h2 className="tagline">
         Third Year Data Science and Finance Student at{' '}
         <a

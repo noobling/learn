@@ -1,10 +1,11 @@
 import React from 'react'
+import experienceIcon from './experience.svg'
 
 export default function() {
   return (
     <section id="experience" className="section-dark">
       <img
-        src="experience.svg"
+        src={experienceIcon}
         className="icon"
         style={{ width: '60px' }}
         alt="experience-icon"

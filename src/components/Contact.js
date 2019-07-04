@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import contactIcon from './contact.svg'
 
 export default function() {
   return (
@@ -8,7 +9,7 @@ export default function() {
       style={{ height: '100%', padding: '50px 0' }}
       className="section-dark"
     >
-      <img src="contact.svg" className="icon" alt="contact-icon" />
+      <img src={contactIcon} className="icon" alt="contact-icon" />
       <h2 className="tagline">Contact Me</h2>
       <form className="contact-form" action="#">
         <input
